@@ -1,0 +1,433 @@
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: #fbf9f7;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #001e31
+    url(images/loading-48.gif)
+    no-repeat center;
+    z-index: 9999;
+  }
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+.hero-background {
+    background-image: url(images/bread-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.create {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create button {
+    display: inline-block;
+    color: #fff;
+    padding: 6px 23px;
+    background: linear-gradient(to right, #5986FF 46%, #A834FF 95%);
+    border-radius: 30px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    margin: 0 10px 0 -28px;
+    text-decoration: none;
+}
+
+.create button:hover {
+    background: #A834FF;
+}
+
+.create button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.breadcome-title {
+    text-align: center;
+}
+.breadcome-title h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+}
+p {
+    font-weight: 400;
+    font-style: normal;
+}
+.breadcome-title a{
+    display: inline-block;
+    color: #518EFF;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.breadcome-title p span {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding-left: 18px;
+}
+.breadcome-title span:before {
+    position: absolute;
+    content: "";
+    left: 7px;
+    top: 6px;
+    width: 2px;
+    height: 24px;
+    background: #766F80;
+}
+.breadcome-title{
+    padding-top: 50px;
+}
+.blog{
+    background-color: #120f28;
+    height: auto;
+    padding-bottom: 50px;
+}
+.card-1{
+    background-color: #2a273e;
+    width: 99%;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.bt{
+    padding-top: 150px;
+}
+.card-1 img{
+    width: 379px;
+    height: auto;
+    margin: 14px;
+    /* padding: 20px; */
+    border-radius: 8px;
+}
+.popular-blog-content {
+    padding: 12px 0 0;
+}
+.meta-blog {
+    display: inline-block;
+}
+.meta-blog a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #518EFF;
+    position: relative;
+    z-index: 1;
+    margin-left: 20px;
+    color: #fff;
+}
+.blog-meta {
+    display: inline-block;
+    padding: 0 0 0 24px;
+}
+.blog-meta a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.blog-title h2 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.blog-title a{
+    text-decoration: none;
+    color: white;
+    /* margin-left: 14px; */
+}
+.blog-title h2 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 19px;
+}
+.f{
+    background-image: url(images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+footer{
+    background: #11071d;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+}
+.bottom-navbar{
+    padding-top: 100px;
+}
+.bottom-logo h3{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 0 17px;
+    font-weight: 500;
+}
+.sm-logo{
+}
+#sm-logos {
+    font-size: 30px;
+    padding: 12px;
+    color: #fff;
+    transition: all 0.8s;
+}
+#sm-logos:hover{
+    /* color: red; */
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient( to right, #518EFF, 51%, #B725FF 60%);
+}
+.bottom-nav-text h4 {
+    font-size: 24px;
+    color: #b141e0;
+    font-weight: 600;
+    margin-top: 13px;
+    padding-left: 47px;
+    /* padding: 0 0 16px; */
+}
+.bottom-nav-text ul{
+    list-style-type:  circle;
+    color: #b141e0;
+    font-size: 15px;
+    
+}
+.bottom-nav-text ul li{
+    padding: 10px;
+}
+.bottom-nav-text ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.8s;
+    text-transform: capitalize;
+}
+.bottom-nav-text ul li a:hover{
+    color: #b141e0;
+}
+@media screen and (max-width:1024px) {
+    .create {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .logo img{
+        margin-left: 28px;
+    }
+    .card-1 img{
+        width: 100%;
+    }
+    .black-n {
+        position: absolute;
+        top: 36px;
+        background-color: #2a273e;
+        color: #FFF;
+        left: 130px;
+        padding: 6px 21px;
+        border-radius: 20px;
+        transition: all 0.9s;
+    }
+    .ct2 p {
+        padding-top: 23px;
+        font-size: 10px;
+    }
+    .filter {
+        background-color: #2a273e;
+        width: 97%;
+        height: auto;
+        margin-top: 50px;
+        border-radius: 8px;
+        margin-left: 4px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .card-1 img {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        /* padding: 20px; */
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width:991px) {
+    .bottom-nav-text h4 {
+        font-size: 15px;
+        color: #b141e0;
+        font-weight: 600;
+        margin-top: 13px;
+        padding-left: 47px;
+        /* padding: 0 0 16px; */
+    }
+    .bottom-nav-text ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        transition: all 0.8s;
+        text-transform: capitalize;
+    }
+    .bottom-nav-text ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        transition: all 0.8s;
+        text-transform: capitalize;
+    }
+    .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+    }
+    .igm img {
+        width: 100%;
+        height: 160px;
+        /* padding: 1px; */
+        margin-left: 14px;
+        margin-top: 19px;
+    }
+    .nav ul li {
+        display: inline-block;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .create {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 20px;
+        display: none;
+    }
+    .igm img {
+        width: 100%;
+        height: 160px;
+        /* padding: 1px; */
+        margin-left: 0;
+        margin-top: 19px;
+    }
+    footer {
+        background: #11071d;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

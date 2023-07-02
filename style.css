@@ -1,0 +1,1021 @@
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: #fbf9f7;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #001e31
+    url(images/loading-48.gif)
+    no-repeat center;
+    z-index: 9999;
+  }
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+.hero-background {
+    background-image: url(images/nft-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.create {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create button {
+    display: inline-block;
+    color: #fff;
+    padding: 6px 23px;
+    background: linear-gradient(to right, #5986FF 46%, #A834FF 95%);
+    border-radius: 30px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    margin: 0 10px 0 -28px;
+    text-decoration: none;
+}
+
+.create button:hover {
+    background: #A834FF;
+}
+
+.create button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+#imagesd {
+    padding-top: 0px;
+}
+
+.nft-img img {
+    padding-top: 100px;
+    padding-left: 50px;
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: red; */
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 200px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 200px;
+    }
+
+}
+
+.content{
+    margin-top: 100px;
+}
+.content h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.content h2 span {
+    background: linear-gradient(to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+.content img {
+    vertical-align: middle;
+    margin-top: -76px;
+    padding-left: 132px;
+}
+.content p{
+    color: #fff;
+    font-size: 18px;
+    max-width: 548px;
+}
+.content button{
+    background: linear-gradient(to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+    padding: 14px 34px;
+    border: none;
+    border-radius: 7px;
+}
+.content button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+#exp{
+    padding: 14px 34px;
+    background-color: transparent;
+    border: 1px solid violet;
+    margin-left: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+#exp:hover{
+    border: 3px solid #fff;
+    background: linear-gradient(to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+}
+.animated-image img{
+    width: 606px;
+    height: 604px;
+    margin-top: 50px;
+    position: relative;
+}
+.bth img{
+    width: 264px;
+    height: 168px;
+    position: absolute;
+    animation-name: example-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example-2 {
+    0% {
+        left: 635px;
+        top: 500px;
+    }
+    
+    50% {
+        left: 635px;
+        top: 450px;
+    }
+    
+    100% {
+        left: 635px;
+        top: 500px;
+    }
+
+}
+.bth-1 img {
+    width: 230px;
+    height: 100px;
+    position: absolute;
+    top: 278px;
+    left: 1253px;
+    animation-name: example-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example-1 {
+    0% {
+        left: 1235px;
+        top: 300px;
+    }
+    
+    50% {
+        left: 1253px;
+        top: 150px;
+    }
+    
+    100% {
+        left: 1253px;
+        top: 300px;
+    }
+    
+}
+
+
+
+.nft-bg {
+    background-image: url(images/feature-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    /* margin-top: -126px; */
+    position: relative;
+    z-index: -1;
+    top: -153px;
+}
+.nft-image img{
+    padding-top: 200px;
+    padding-left: 40px;
+    transition: all 0.5s;
+    animation-name: example-3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example-3{
+    0%{
+        left: 0px;
+        transform: rotateY(0deg);
+       }
+       /* 50%{
+           left: 0px;
+           transform: rotateY(100deg);
+        } */
+        100%{
+            left: 0px;
+            transform: rotateY(180deg);
+        }
+    }
+    
+    #nt {
+        margin-left: 148px;
+    }
+    
+    .text-right{
+        padding-top: 200px;
+    }
+    .text-right h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    /* position: relative; */
+    z-index: 1;
+    background: linear-gradient( to right, #518EFF, #518EFF, 6%, #B725FF 10%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.text-right h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffff;
+    animation: 1s 2s fadeInRight both;
+}
+.text-right img {
+    padding-left: 6px;
+    width: 201px;
+    margin-top: -35px;
+}
+.border-bottom-line {
+    background-color: #fff;
+    width: 137px;
+    height: 5px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    position: relative;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+    position: absolute;
+    top: -5px;
+    animation-name: example-4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example-4{
+    0% {
+        left: 0px;
+       
+    }
+    
+    50% {
+        left: 137px;
+        
+    }
+    
+    100% {
+        left: 0px;
+    
+    }
+}
+.text-right button{
+
+}
+.text-right button {
+    padding: 16px 35px;
+    font-size: 18px;
+    background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+.text-right button:hover{
+    background: linear-gradient(to left, #518EFF 35%, #B725FF 88% );
+}
+.text-right button a{
+    text-decoration: none;
+    color: #fff;
+}
+.live-auctions {
+    background-color: #000616;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: -193px;
+}
+.live-auctions h4 {
+    background: linear-gradient( to right, #518EFF, 51%, #B725FF 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: 1s 2s fadeInRight both;
+    text-transform: uppercase;
+}
+.live-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.live-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.live-text span {
+    background: linear-gradient( to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+.live-text  p {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 399px 42px 398px;
+    text-align: center;
+}
+.card-s .card{
+    background-color: #12081e;
+    height: auto;
+    width: 98%;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    transition: all 0.6s;
+}
+.card-s .card:hover{
+    border: 2px solid #518EFF ;
+}
+.card-s .card img{
+    border-radius: 17px;
+
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.k{
+    font-size: 20px;
+    color: #fff;
+}
+.next-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.next-text h4{
+    background: linear-gradient( to right, #518EFF, 51%, #B725FF 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: 1s 2s fadeInRight both;
+}
+.next-text h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.next-text h1 span{
+    background: linear-gradient( to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+
+element.style {
+}
+
+.next-text p {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    max-width: 601px;
+}
+.card-4{
+    width: 97%;
+    height: 300px;
+    background-color: #11071D;
+}
+.s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.s h3{
+    color: #fff;
+}
+.card-4{
+    transition: all 0.5s;
+}
+.card-4:hover{
+    border: 2px solid #4f87f4;
+}
+.card-4 h1 {
+    font-size: 22px;
+    /* padding: 19px 0 17px; */
+    margin-left: -94px;
+}
+.card-4 p {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    max-width: 335px;
+}
+.card-4 a{
+    margin-left: -268px;
+    text-decoration: none;
+    color: #4f87f4;
+}
+.top-sellers{
+    margin-top: 150px;
+}
+.top-sellers h4 {
+    background: linear-gradient( to right, #518EFF, 51%, #B725FF 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: 1s 2s fadeInRight both;
+}
+.card-sell-1{
+    background-color: #11071d;
+    width: 98%;
+    height: 200px;
+    position: relative;
+}
+.card-sell-1 h1 {
+    position: absolute;
+    right: 0px;
+    top: -24px;
+    background: #4f87f4;
+    padding: 13px;
+    border-radius: 0 0px 0px 34px;
+}
+.card-sell-1 img{
+    /* margin-left: -247px;
+    margin-top: 83px; */
+}
+.content-sell{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    background: #11071d;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+}
+.bottom-navbar{
+    padding-top: 100px;
+}
+.bottom-logo h3{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 0 17px;
+    font-weight: 500;
+}
+.sm-logo{
+}
+#sm-logos {
+    font-size: 30px;
+    padding: 12px;
+    color: #fff;
+    transition: all 0.8s;
+}
+#sm-logos:hover{
+    /* color: red; */
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient( to right, #518EFF, 51%, #B725FF 60%);
+}
+.bottom-nav-text h4 {
+    font-size: 24px;
+    color: #b141e0;
+    font-weight: 600;
+    margin-top: 13px;
+    padding-left: 47px;
+    /* padding: 0 0 16px; */
+}
+.bottom-nav-text ul{
+    list-style-type:  circle;
+    color: #b141e0;
+    font-size: 15px;
+    
+}
+.bottom-nav-text ul li{
+    padding: 10px;
+}
+.bottom-nav-text ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.8s;
+    text-transform: capitalize;
+}
+.bottom-nav-text ul li a:hover{
+    color: #b141e0;
+}
+
+@media screen and (max-width:1024px) {
+    .animated-image img {
+        width: 94%;
+        height: auto;
+        margin-top: 50px;
+        position: relative;
+    }
+    .bth img{
+        width: 264px;
+        height: 168px;
+        position: absolute;
+        animation-name: example-2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes example-2 {
+        0% {
+            left: 400px;
+            top: 200px;
+        }
+        
+        50% {
+            left: 400px;
+            top: 250px;
+        }
+        
+        100% {
+            left: 400px;
+            top: 200px;
+        }
+    
+    }
+    .bth-1 img {
+        width: 184px;
+        height: 100px;
+        position: absolute;
+        top: 278px;
+        left: 1253px;
+        animation-name: example-1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes example-1 {
+        0% {
+            left: 830px;
+            top: 300px;
+        }
+        
+        50% {
+            left: 830px;
+            top: 150px;
+        }
+        
+        100% {
+            left: 830px;
+            top: 300px;
+        }
+        
+    }
+    .live-text p {
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        padding: 18px 77px 42px 200px;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    .card-4 a {
+        margin-left: -172px;
+        text-decoration: none;
+        color: #4f87f4;
+    }
+    #imagesd {
+        padding-top: 0px;
+        margin-right: 23px;
+    }
+    .logo img{
+        margin-left: 23px;
+    }
+    .nft-bg {
+        background-image: url(images/feature-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 718px;
+        /* margin-top: -126px; */
+        position: relative;
+        z-index: -1;
+        top: -153px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    @keyframes example-2 {
+        0% {
+            left: 300px;
+            top: 200px;
+        }
+        
+        50% {
+            left: 300px;
+            top: 250px;
+        }
+        
+        100% {
+            left: 300px;
+            top: 200px;
+        }
+    
+    }
+    .bth img {
+        width: 189px;
+        height: 118px;
+        position: absolute;
+        animation-name: example-2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    .bth-1 img {
+        width: 184px;
+        height: 100px;
+        position: absolute;
+        top: 278px;
+        left: 1253px;
+        animation-name: example-1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes example-1 {
+        0% {
+            left: 580px;
+            top: 300px;
+        }
+        
+        50% {
+            left: 580px;
+            top: 150px;
+        }
+        
+        100% {
+            left: 580px;
+            top: 300px;
+        }
+        
+    }
+    .bottom-nav-text h4 {
+        font-size: 14px;
+        color: #b141e0;
+        font-weight: 600;
+        margin-top: 13px;
+        padding-left: 47px;
+        /* padding: 0 0 16px; */
+    }
+    .bottom-nav-text ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: all 0.8s;
+        text-transform: capitalize;
+    }
+    .nft-img img {
+        padding-top: 100px;
+        padding-left: 50px;
+        /* width: 100px;
+        height: 100px; */
+        /* background-color: red; */
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes example {
+        0% {
+            left: 0px;
+            top: 200px;
+        }
+    
+        50% {
+            left: 0px;
+            top: 0px;
+        }
+    
+        100% {
+            left: 0px;
+            top: 200px;
+        }
+    
+    }
+    .nft-img img {
+        padding-top: 100px;
+        padding-left: 6px;
+        /* background-color: red; */
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    .k {
+        font-size: 20px;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .card-4 p {
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+        max-width: 335px;
+    }
+    .card-4 a {
+        margin-left: -129px;
+        text-decoration: none;
+        color: #4f87f4;
+    }   
+    .card-4 h1 {
+        font-size: 18px;
+        /* padding: 19px 0 17px; */
+        margin-left: -79px;
+    }
+    footer p {
+        font-size: 15px;
+        color: #fff;
+    }
+    .bottom-logo{
+        padding-left: 16px;
+    }
+    .bottom-nav-text ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 8px;
+        transition: all 0.8s;
+        text-transform: capitalize;
+    }
+    .nav ul li{
+        display: inline-block;
+        padding: -1px;
+    }
+    .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 8px;
+    }
+    #exp {
+        padding: 14px 20px;
+        background-color: transparent;
+        border: 1px solid violet;
+        margin-left: 10px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.5s;
+    }
+}
+@media screen and (max-width:767px) {
+    .bth img {
+        width: 189px;
+        height: 118px;
+        position: absolute;
+        display: none;
+        animation-name: example-2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    .bth-1 img{
+        display: none;
+    }
+    .create button {
+        display: inline-block;
+        color: #fff;
+        padding: 6px 23px;
+        background: linear-gradient(to right, #5986FF 46%, #A834FF 95%);
+        border-radius: 30px;
+        transition: .5s;
+        position: relative;
+        z-index: 1;
+        margin: 0 10px 0 -28px;
+        text-decoration: none;
+        display: none;
+    }
+    #imagesd {
+        padding-top: 0px;
+        margin-right: 23px;
+        display: none;
+    }
+    .text-right h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffff;
+        animation: 1s 2s fadeInRight both;
+    }
+    .text-right img {
+        padding-left: 6px;
+        width: 117px;
+        margin-top: -35px;
+    }
+    .border-bottom-line {
+        background-color: #fff;
+        width: 137px;
+        height: 5px;
+        border-radius: 20px;
+        margin-top: 25px;
+        margin-left: 0;
+        position: relative;
+    }
+    .text-right button {
+        padding: 11px 21px;
+        font-size: 11px;
+        background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 55px;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+    .live-text p {
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        padding: 9px 77px 42px 30px;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    .content h2 {
+        color: #fff;
+        font-size: 43px;
+    }
+    .nft-img img {
+        padding-top: 100px;
+        padding-left: 6px;
+        /* background-color: red; */
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        display: none;
+    }
+    .content button {
+        background: linear-gradient(to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+        padding: 14px 15px;
+        border: none;
+        border-radius: 7px;
+    }
+    .animated-image img {
+        width: 94%;
+        height: auto;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 10px;
+    }
+    .text-right {
+        padding-top: 0px;
+        padding-left: 18px;
+    }
+    .live-text h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .live-text p {
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        padding: 9px 11px 42px 8px;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    .card-4 p {
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        max-width: 335px;
+    }
+}
